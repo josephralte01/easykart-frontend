@@ -6,7 +6,7 @@ import { CartProvider } from '@/contexts/CartContext';
 import { AuthProvider } from '@/contexts/AuthContext';
 import { ErrorToastProvider } from '@/contexts/ErrorToastContext';
 import Head from 'next/head';
-import '../app/sentry.client.config';
+import '../sentry.client.config';
 
 const inter = Inter({ subsets: ['latin'] });
 
