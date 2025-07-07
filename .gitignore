@@ -36,6 +36,7 @@ yarn-error.log*
 next-env.d.ts
 
 # backend
+backend/
 backend/.env
 backend/.env.local
 backend/.env.*
@@ -54,6 +55,3 @@ app/sentry.client.config.ts
 lighthouse-report.html
 axe-report.html
 
-#exclude backend
-/backend/
-# --- IGNORE ---
