@@ -1,7 +1,6 @@
-import type { Config } from 'tailwindcss';
-
-const config: Config = {
+module.exports = {
   darkMode: 'class',
+  safelist: ['border-border'],
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -94,5 +93,3 @@ const config: Config = {
   },
   plugins: [require('tailwindcss-animate')],
 };
-
-module.exports = config;
