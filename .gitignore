@@ -55,3 +55,16 @@ app/sentry.client.config.ts
 lighthouse-report.html
 axe-report.html
 
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Optional: lockfiles (uncomment if you want to ignore them)
+# package-lock.json
+# yarn.lock
+
