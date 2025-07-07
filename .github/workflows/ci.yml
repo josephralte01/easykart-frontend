@@ -16,10 +16,15 @@ jobs:
         with:
           node-version: 18
       - name: Install dependencies
-        run: npm install && cd backend && npm install && cd ..
+        run: npm install
       - name: Lint
         run: npx eslint .
       - name: Prettier Check
         run: npx prettier --check .
       - name: Run backend tests
-        run: cd backend && npm test || true
+        run: |
+          if [ -d backend ]; then
+            cd backend && npm test
+          else
+            echo "No backend folder found. Skipping backend tests."
+          fi
