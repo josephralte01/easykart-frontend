@@ -59,6 +59,9 @@ module.exports = {
           '5': 'hsl(var(--chart-5))',
         },
       },
+      borderColor: {
+        border: 'hsl(var(--border))',
+      },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
       },
